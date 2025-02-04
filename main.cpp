@@ -420,6 +420,7 @@ int main() {
             case 11: manager.searchPartDetails(); break;
             case 12: manager.searchManufacturerDetails(); break;
             case 13: cout << "Exiting...\n"; break;
+            
             default: cout << "Invalid option, please try again.\n"; break;
         }
     } while (choice != 13);
